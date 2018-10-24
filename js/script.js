@@ -5,7 +5,7 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function(){
+/*$(document).ready(function(){
 	$('#6').on('click', function (){
 		$('#6').addClass('active');
 		$('#1').removeClass('active');
@@ -14,4 +14,8 @@ $(document).ready(function(){
 		$('#1').addClass('active');
 		});
 	});
+});*/
+$('#sidebar li').click(function() {
+    $(this).siblings('li').removeClass('active');
+    $(this).addClass('active');
 });
