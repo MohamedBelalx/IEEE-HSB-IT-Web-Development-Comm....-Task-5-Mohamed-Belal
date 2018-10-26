@@ -1,6 +1,4 @@
 /* Start Side_Navbar */
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -56,7 +54,7 @@ a, a:hover, a:focus {
 
 
 #sidebar {
-    min-width: 250px;
+    min-width: 267px;
     max-width: 250px;
     background: #31393C;
     color: #fff;
@@ -137,10 +135,13 @@ a, a:hover, a:focus {
     margin: 5px auto;
 }
 
-
+img{
+	vertical-align:text-top;
+}
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
+/*
 @media (max-width: 768px) {
     #sidebar {
         margin-left: -250px;
@@ -171,9 +172,28 @@ a, a:hover, a:focus {
     }
 
 }
-
-
-
+*/
+/* Map_div */
+#map{
+	background-color: white;
+	position: fixed;
+	top:100px;
+	height:auto;
+	margin-left: 20px;
+	padding: 20px;
+	width: 600px;
+	border-radius: 5px;
+	
+	
+}
+#map h4{
+	color:#333;
+	text-transform:capitalize;
+}
+#map p{
+	max-width: 550px;
+	
+}
 
 
 
